@@ -6,6 +6,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         // sc.nextInt();
         int points = Integer.parseInt(args[0]);
+        double pi;
+        if (points == 0) {
+            pi = 0;
+        }
 
         int insideCounter = 0;
 
@@ -18,8 +22,8 @@ public class Main {
             }
         }
 
-        double ro = insideCounter / points;
-        double pi = ro * 4;
+        double ro = insideCounter / (double) points;
+        pi = ro * 4;
         System.out.println("Total number of points: " + points);
         System.out.println("Points within the circle: " + insideCounter);
         System.out.println("Pi estimation: " + pi);

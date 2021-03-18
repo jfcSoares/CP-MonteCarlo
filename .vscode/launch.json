@@ -16,7 +16,7 @@
             "request": "launch",
             "mainClass": "Main",
             "projectName": "Monte Carlo PI_23ab3450",
-            "args": "1000"
+            "args": "1000000"
         }
     ]
 }
