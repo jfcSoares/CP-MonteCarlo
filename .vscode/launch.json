@@ -14,9 +14,9 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
-            "mainClass": "Main",
+            "mainClass": "aula1.Main",
             "projectName": "Monte Carlo PI_23ab3450",
-            "args": "1000000"
+            "args": ["1000000", "2"]
         }
     ]
 }
